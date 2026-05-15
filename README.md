@@ -1,30 +1,41 @@
-# Password Generator in Java
+# 🔐 Password Generator in Java
 
 A simple and secure password generator developed using Java.  
 This application allows users to generate strong random passwords with customizable options.
 
-## Features
-- Generate secure random passwords
-- User-defined password length
-- Option to include:
-  - Uppercase letters
-  - Lowercase letters
-  - Numbers
-  - Special characters
-- Uses `SecureRandom` for better security
+---
 
-## Technologies Used
-- Java
-- SecureRandom
-- Scanner Class
+## ✨ Features
+✅ Generate secure random passwords  
+✅ User-defined password length  
+✅ Option to include:
+- 🔠 Uppercase letters
+- 🔡 Lowercase letters
+- 🔢 Numbers
+- ✨ Special characters
 
-## How It Works
-1. User enters the desired password length.
-2. User selects which character types to include.
-3. Program generates a secure random password based on selected options.
+✅ Uses `SecureRandom` for enhanced security  
 
-## Sample Output
+---
 
+## 🛠️ Technologies Used
+- ☕ Java
+- 🔒 SecureRandom
+- ⌨️ Scanner Class
+
+---
+
+## ⚙️ How It Works
+1. 📏 User enters the desired password length.
+2. 🎛️ User selects which character types to include.
+3. 🧩 Program creates a character pool based on selected options.
+4. 🔐 Secure random password is generated and displayed.
+
+---
+
+## 💻 Sample Output
+
+```text id="6d0e6z"
 Enter the desired length of password:
 12
 
@@ -41,10 +52,25 @@ Include special characters? (true/false)
 true
 
 Generated password is: A9@kLp#2Xq!
+```
 
-## Project Structure
+---
 
+## 📂 Project Structure
+
+```text id="lhjlwm"
 PasswordGenerator.java
+```
 
-## Author
-Abhishek Morge
+---
+
+## 🚀 Future Improvements
+- 🖥️ GUI Version
+- 📊 Password Strength Checker
+- 💾 Save Password Feature
+- 🌐 Web-based Application
+
+---
+
+## 👨‍💻 Author
+**Abhishek Morge**
